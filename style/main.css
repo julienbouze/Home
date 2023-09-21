@@ -1,0 +1,76 @@
+/* Styles pour la page d'accueil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width:100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+text-align:center;
+}
+
+#projectList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projectList li {
+    width: calc(33.33% - 20px); /* 3 éléments par ligne avec espace entre eux */
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 0;
+    color: #333;
+    text-align: center; /* Centrer le texte du titre */
+}
+
+p {
+    color: #666;
+}
+
+/* Styles pour le bouton "Repo" (grenat) */
+.repo-button {
+    background-color: #800000; /* Grenat */
+    color: #fff; /* Texte blanc */
+    display: inline-block;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+/* Styles pour le bouton "Page" (bleu nuit) */
+.page-button {
+    background-color: #191970; /* Bleu nuit */
+    color: #fff; /* Texte blanc */
+    display: inline-block;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
