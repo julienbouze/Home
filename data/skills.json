@@ -1,0 +1,23 @@
+[
+  { "name": "HTML","id": "html", "percentage": 90, "type": "dev" },
+  { "name": "CSS","id": "css", "percentage": 60, "type": "dev" },
+  { "name": "Bootstrap","id": "bootstrap", "percentage": 60, "type": "dev" },
+  { "name": "JavaScript","id": "js", "percentage": 75, "type": "dev" },
+  { "name": "JQuery","id": "jquery", "percentage": 50, "type": "dev" },
+  { "name": "AngularJS","id": "angularjs", "percentage": 45, "type": "dev" },
+  { "name": "Exécution de tests","id": "execution-de-tests", "percentage": 100, "type": "test" },
+  { "name": "Ecriture de tests","id": "ecriture-de-tests", "percentage": 85, "type": "test" },
+  { "name": "Ecriture d'exigences","id": "ecriture-dexigences", "percentage": 75, "type": "test" },
+  { "name": "Suivi de campagne","id": "suivi-de-campagne", "percentage": 85, "type": "test" },
+  { "name": "Anglais","id": "anglais", "percentage": 75, "type": "language" },
+  { "name": "Espagnol","id": "espagnol", "percentage": 50, "type": "language" },
+  { "name": "Git","id": "git", "percentage": 40, "type": "software" },
+  { "name": "Photoshop","id": "photoshop", "percentage": 60, "type": "software" },
+  { "name": "Illustrator","id": "illustrator", "percentage": 50, "type": "software" },
+  { "name": "Procreate","id": "procreate", "percentage": 60, "type": "software" },
+  { "name": "Squash TM","id": "squash", "percentage": 80, "type": "software" },
+  { "name": "Jira","id": "jira", "percentage": 60, "type": "software" },
+  { "name": "Coopération","id": "cooperation", "percentage": 90, "type": "soft" },
+  { "name": "Logique","id": "logique", "percentage": 70, "type": "soft" },
+  { "name": "Créativité","id": "creativite", "percentage": 60, "type": "soft" }
+]
