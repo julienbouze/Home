@@ -21,9 +21,9 @@
                 <div>
                     <h4 class="project">{{ replaceDashes(project.name) }}</h4>
                     <p>{{ project.description }}</p>
-                    <a href="{{ project.html_url }}" class="badge rounded-pill p-2 mb-2 d-inline-block mx-1 project-pill">Repo
+                    <a href="{{ project.html_url }}" target="_blank" class="badge rounded-pill p-2 mb-2 d-inline-block mx-1 project-pill">Repo
                     </a>
-                    <a href="https://julienbouze.github.io/{{ project.name }}/" ng-if="project.has_url === True" class="badge rounded-pill p-2 mb-2 d-inline-block mx-1 project-pill">Page
+                    <a href="{{ project.homepage }}" target="_blank" ng-if="project.has_url === True" class="badge rounded-pill p-2 mb-2 d-inline-block mx-1 project-pill">Page
                     </a>
                 </div>
             </div>
