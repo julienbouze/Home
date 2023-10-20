@@ -23,7 +23,7 @@
                     <p>{{ project.description }}</p>
                     <a href="{{ project.html_url }}" target="_blank" class="badge rounded-pill p-2 mb-2 d-inline-block mx-1 project-pill">Repo
                     </a>
-                    <a href="{{ project.homepage }}" target="_blank" ng-if="project.has_url === True" class="badge rounded-pill p-2 mb-2 d-inline-block mx-1 project-pill">Page
+                    <a href="{{ project.homepage }}" target="_blank" ng-if="project.homepage != null || project.homepage != ''" class="badge rounded-pill p-2 mb-2 d-inline-block mx-1 project-pill">Page
                     </a>
                 </div>
             </div>
