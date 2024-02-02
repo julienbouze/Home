@@ -1,0 +1,58 @@
+<nav id="navbar" class="navbar mb-3 px-5" ng-controller="navController">
+    <ul>
+        <li><a class="nav-link" href="" ng-click="goToPage('/home')">Accueil</a></li>
+        <li><a class="nav-link" href="" ng-click="goToPage('/about')">À propos</a></li>
+        <li><a class="nav-link" href="" ng-click="goToPage('/resume')">Mon CV</a></li>
+        <li><a class="nav-link" href="" ng-click="goToPage('/portfolio')">Portfolio</a></li>
+    </ul>
+    <i class="bi bi-list mobile-nav-toggle"></i>
+</nav><!-- .navbar -->
+<!-- ======= Portfolio Section ======= -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <div class="section-title">
+            <h2>Portfolio</h2>
+            <p>Mes réalisations <span class="real">({{ nb_projects }} repositories)</span></p>
+        </div>
+        <div class="pagination">
+            <span class="page" ng-repeat="pageNumber in getPagesArray()" ng-class="{active: current_page === pageNumber}">
+                <a href="" ng-click="goToPageNumber(pageNumber)">{{pageNumber}}</a>
+            </span>
+        </div>
+        <div class="row portfolio-container">
+            <div ng-click="getRepoDetails(project)" ng-repeat="project in projects" class="col-lg-4 col-md-6 portfolio-item" ng-if="project.name != 'julienbouze'">
+                <h4 class="project">{{ replaceDashes(project.name) }}</h4>
+                <p>{{ project.description }}</p>
+            </div>
+        </div>
+        <div ng-show="selectedProject" class="overlay" id="overlay" ng-click="resetRepoDetails()"></div>
+        <div ng-show="selectedProject" class="overlay" id="overlay" ng-click="resetRepoDetails()"></div>
+        <div ng-show="selectedProject" class="details-container" id="modal">
+            <span class="close-btn" ng-click="resetRepoDetails()">&times;</span>
+            <div id="modal-content">
+                <h4 class="project">
+                    <span ng-repeat="topic in selectedProject.topics" ng-if="topic === 'exercism' || topic === 'frontendmentor'" class="topic">{{ topic }} - </span>
+                    {{ replaceDashes(selectedProject.name) }}
+                </h4>
+                <div class="languages">
+                    <div class="language" ng-repeat="language in languages" title="{{ language }}">  
+                        <i ng-if="language === 'HTML'" class="devicon-html5-plain"></i>
+                        <i ng-if="language === 'CSS'" class="devicon-css3-plain"></i>   
+                        <i ng-if="language === 'Java'" class="devicon-java-plain"></i>     
+                        <i ng-if="language === 'JavaScript'" class="devicon-javascript-plain"></i>        
+                        <i ng-if="language === 'Python'" class="devicon-python-plain"></i>
+                    </div>
+                    <div class="done" title="Exercice réussi">
+                        <i ng-repeat="topic in selectedProject.topics" ng-if="topic === 'done'" class="bi bi-check2-circle"></i>
+                    </div>
+                </div>                
+                <p>{{ selectedProject.description }}</p>           
+                <div class="buttons">
+                    <div class="button repo"><a href="{{ selectedProject.html_url }}" target="_blank">Repository</a></div>
+                    <div ng-show="selectedProject.has_pages" class="button website"><a href="{{ selectedProject.homepage }}" target="_blank">Site web</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End Portfolio Section -->
+

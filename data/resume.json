@@ -1,0 +1,364 @@
+[
+  {
+    "name": "Licence professionnelle SIL - Développement et Administration Internet et Intranet (DA2I)",
+    "localisation": "IUT Aix-Marseille, Aix-en-Provence",
+    "contrat": "BAC +3",
+    "debut": "Septembre 2016",
+    "end": "Juillet 2017",
+    "type": "formation",
+    "description": "La Licence Professionnelle SIL DA2I est une formation pour approfondir les connaissances et compétences sur les technologies et langages web.",
+    "lines": [
+      "Langages pour le Web (HTML, CSS, PHP, JavaScript et Ajax, JSON, XML, etc.)",
+      "Systèmes d'information et bases de données (SQL, Oracle, MySQL, MariaDB, administration des bases de données)",
+      "Bibliothèques et frameworks (jQuery, Less, Bootstrap, AngularJS, etc.)",
+      "Systèmes de gestion de contenu (Wordpress, Joomla, Drupal, etc.)",
+      "Systèmes d'exploitation et réseaux (administration, infrastructures, et sécurité)",
+      "Conception de sites (Web design), ergonomie, accessibilité, adaptativité et notions d'infographie",
+      "Hébergement",
+      "Référencement",
+      "E-commerce"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "php",
+      "javascript",
+      "jquery",
+      "angularjs",
+      "bootstrap",
+      "json",
+      "mysql",
+      "wordpress",
+      "photoshop",
+      "webdesign",
+      "infographie",
+      "communication",
+      "anglais",
+      "getion de projet"
+    ]
+  },
+  {
+    "name": "Diplome Universitaire de Technologie (DUT) Informatique",
+    "localisation": "IUT Aix-Marseille, Aix-en-Provence",
+    "contrat": "Bac +2",
+    "debut": "Septembre 2013",
+    "end": "Juillet 2016",
+    "type": "formation",
+    "description": "Le DUT Informatique est une formation aux fondamentaux de l'informatique, combinant théorie et pratique. Il couvre divers domaines tels que la programmation, les bases de données, les réseaux, et les systèmes d'exploitation.",
+    "lines": [
+      "Algorithmique et langages de programmation (C++, Java, PHP, JavaScript, HTML, CSS)",
+      "Systèmes d'information et bases de données (SQL, Oracle, MySQL, MariaDB, administration des bases de données)",
+      "Systèmes d'exploitation et réseaux (administration, infrastructures, et sécurité)",
+      "Amélioration des connaissances générales (Mathématiques, Anglais, communication, gestion de projet, droit des NTIC, économie, ...)"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "php",
+      "javascript",
+      "c++",
+      "java",
+      "algorithmique",
+      "mysql",
+      "mathématiques",
+      "Systèmes d'exploitation",
+      "droit des ntic",
+      "gestion d'entreprise",
+      "communication",
+      "anglais",
+      "getion de projet"
+    ]
+  },
+  {
+    "name": "Baccalauréat Economique et Social",
+    "localisation": "Lycée Paul Cézanne, Aix-en-Provence",
+    "contrat": "Bac",
+    "debut": "Septembre 2010",
+    "end": "Juillet 2013",
+    "type": "formation",
+    "description": "",
+    "lines": [],
+    "skills": []
+  },
+  {
+    "name": "Développeur front-end",
+    "localisation": "FrontendMentor.io, remote",
+    "contrat": "Projet personnel",
+    "debut": "Septembre 2023",
+    "end": "",
+    "type": "perso",
+    "description": "Frontend Mentor est une plateforme d'apprentissage interactive axée sur le développement web frontend. Elle propose des projets de développement réels avec des maquettes à reproduire, permettant aux développeurs de renforcer leurs compétences en HTML, CSS, et JavaScript. ",
+    "lines": [
+      "Développement de pages web à partir d'une maquette",
+      "Analyse des retours et conseils d'autres développeurs",
+      "Documentation et montée en compétences sur de nouveaux langages",
+      "Analyse et comparaison de code d'autres développeurs"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "jquery",
+      "angularjs",
+      "bootstrap",
+      "json",
+      "git",
+      "github",
+      "analyse de code",
+      "responsive design",
+      "bonnes pratiques",
+      "intellij idea",
+      "figma",
+      "sketch"
+    ]
+  },
+  {
+    "name": "Responsable tests validation - Projet SIGLe",
+    "localisation": "HCUBE Conseil, Aix-en-Provence",
+    "contrat": "CDI",
+    "debut": "Mai 2023",
+    "end": "",
+    "type": "experience",
+    "description": "Responsable des tests et de la validation sur le projet SIGLe en TMA pour la Marine Nationale.",
+    "lines": [
+      "Développement et mise en œuvre d’une stratégie de tests complète, en tenant compte des exigences spécifiques",
+      "Analyse et chiffrage de l’écriture et exécution des tests pour les anomalies rencontrées ainsi que les évolutions demandées",
+      "Conception des scénarios de test, identification des cas de test appropriés et des critères d’acceptation",
+      "Coordination des activités de test avec les équipes de développement, intégrateurs et responsables fonctionnels",
+      "Supervision et exécution des tests, en utilisant des méthodologies et des outils adaptés",
+      "Supervision et accompagnement du client lors des phases de recette client",
+      "Analyse des résultats des tests, identification des anomalies et travail en étroite collaboration avec les équipes pour résoudre les problèmes identifiés",
+      "Préparation des rapports de validation détaillés"
+    ],
+    "skills": [
+      "squash tm",
+      "jira",
+      "mantis",
+      "maximo",
+      "alfresco",
+      "écriture de tests",
+      "écriture d'exigences",
+      "tests fonctionnels",
+      "tests de non regression",
+      "tests d'intégration",
+      "communication interne",
+      "communication client",
+      "gestion de projet"
+    ]
+  },
+  {
+    "name": "Testeur fonctionnel - Projet SIGLe",
+    "localisation": "HCUBE Conseil, Aix-en-Provence",
+    "contrat": "CDI",
+    "debut": "Juillet 2022",
+    "end": "Avril 2023",
+    "type": "experience",
+    "description": "Membre de l'équipe de validation sur le projet SIGLe en TMA pour la Marine Nationale.",
+    "lines": [
+      "Ecriture et exécution des cas de tests concernant les anomalies remontées et les demandes d'évolution",
+      "Mise en place des campagnes de test en collaboration avec le Test Manager",
+      "Exécution de tests de régression et de performance"
+    ],
+    "skills": [
+      "squash tm",
+      "jira",
+      "mantis",
+      "maximo",
+      "alfresco",
+      "sql",
+      "écriture de tests",
+      "écriture d'exigences",
+      "tests fonctionnels",
+      "tests de non regression",
+      "tests d'intégration",
+      "communication interne"
+    ]
+  },
+  {
+    "name": "Technicien helpdesk N2 - Service Grands Comptes",
+    "localisation": "IKOSOFT, Aix-en-Provence",
+    "contrat": "CDI",
+    "debut": "Mars 2021",
+    "end": "Juin 2022",
+    "type": "experience",
+    "description": "Membre du Service Grands Comptes d'IKOSOFT, j'étais affecté à la gestion de plusieurs grands comptes (Pascal Coste, Bar à Beauté, Michel Dervyn, ...).Mon rôle était de gérer tout ce qui concernait leur logiciel Merlin/Success : formations, dépannage, conseils, campagnes marketing, communication.",
+    "lines": [
+      "Gestion de grands comptes (groupes Pascal Coste, Michel Dervyn, Guinot, ...)",
+      "Installation, paramétrage et formation et suivi des clients",
+      "Gestion de bases de données (scripts, migrations, requêtage SQL)",
+      "Tests et mise en place de mises à jours logicielles"
+    ],
+    "skills": [
+      "gestion de projet",
+      "gestion de grands groupes",
+      "dépannage logiciel",
+      "formation",
+      "communication écrite",
+      "communication téléphonique",
+      "teamviewer",
+      "anydesk",
+      "sql"
+    ]
+  },
+  {
+    "name": "Technicien helpdesk",
+    "localisation": "IKOSOFT, Aix-en-Provence",
+    "contrat": "CDI",
+    "debut": "Novembre 2019",
+    "end": "Février 2021",
+    "type": "experience",
+    "description": "Membre du service technique d'IKOSOFT, mon rôle était de dépanner les salons de coiffure et d'esthétique sur leur logiciel d'encaissement Merlin/Success.",
+    "lines": [
+      "Appels sortants et gestion de mails",
+      "Interventions techniques sur le logiciel et le matériel",
+      "Aide à l'utilisation",
+      "Installations et mise en place de mises à jour logicielles"
+    ],
+    "skills": [
+      "dépannage logiciel",
+      "formation",
+      "communication écrite",
+      "communication téléphonique",
+      "teamviewer",
+      "anydesk",
+      "sql"
+    ]
+  },
+  {
+    "name": "Technicien helpdesk",
+    "localisation": "IPA Technologies, Aix-en-Provence",
+    "contrat": "CDI",
+    "debut": "Mars 2018",
+    "end": "Novembre 2019",
+    "type": "experience",
+    "description": "Membre du service technique d'IPA Technologies, mon rôle était de dépanner les audioprothésistes et orthopédistes sur leur logiciel d'encaissement Dynamic.",
+    "lines": [
+      "Gestion des appels entrants et mails",
+      "Interventions techniques sur le logiciel et le matériel",
+      "Gestion de bases de données (migrations, requêtage SQL)",
+      "Aide à l'utilisation",
+      "Installation, paramétrage et formation",
+      "Gestion du contenu et modifications graphiques du support web"
+    ],
+    "skills": [
+      "dépannage logiciel",
+      "formation",
+      "communication écrite",
+      "communication téléphonique",
+      "teamviewer",
+      "anydesk",
+      "sql",
+      "html",
+      "css",
+      "javascript"
+    ]
+  },
+  {
+    "name": "Développeur web",
+    "localisation": "APIGEM, Saint-Cannat",
+    "contrat": "Stage",
+    "debut": "Avril 2017",
+    "end": "Juillet 2017",
+    "type": "experience",
+    "description": "Membre de l'équipe de développement d'APIGEM, ma mission était de migrer le portail APIGEM, une application de gestion médicale, vers une nouvelle version développée à l'aide de Bootstrap.",
+    "lines": [
+      "Création d'une version bureau et d'une version mobile du site",
+      "Intégration de nouvelles fonctionnalités pour améliorer l'expérience utilisateur",
+      "Amélioration de la structure du code pour le rendre plus facilement réutilisable et lisible"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "bootstrap",
+      "responsive design",
+      "intellij idea"
+    ]
+  },
+  {
+    "name": "Développeur",
+    "localisation": "IAE Aix-Marseille Graduate School of Management, Puyricard",
+    "contrat": "Stage",
+    "debut": "Avril 2016",
+    "end": "Juillet 2016",
+    "type": "experience",
+    "description": "Membre ddu service informatique de l'IAE d'Aix-Marseille, j'avais un rôle multi-tâche de développeur et technicien support pour les professeurs, intervenants et éudiants.",
+    "lines": [
+      "Configuration et Mise en place d’un serveur web de secours",
+      "Intervention sur les équipements réseaux (Switch, borne Wifi)",
+      "Installation, configuration, dépannage et tests des postes, des serveurs, des portables, des imprimantes..."
+    ],
+    "skills": [
+      "html",
+      "css",
+      "4D",
+      "Maintenance informatique"
+    ]
+  },
+  {
+    "name": "Employé de commerce",
+    "localisation": "Supermarché Casino, Aix-en-Provence",
+    "contrat": "Contrat étudiant",
+    "debut": "Juillet 2015",
+    "end": "Septembre 2017",
+    "type": "experience",
+    "description": "Pendant mes études, j'ai travaillé au supermarché Casino d'Aix-en-Provence. Je m'occupais du rayon boulangerie. J'étais aussi en back-up sur les rayons fruits/légumes, liquides et à l'encaissement.",
+    "lines": [
+      "Boulangerie",
+      "Gestion et rangement de rayon",
+      "Accueil client",
+      "Encaissement client"
+    ],
+    "skills": [
+      "boulangerie",
+      "gestion de rayon",
+      "rangement de rayon",
+      "gestion des stocks",
+      "accueil client",
+      "encaissement client"
+    ]
+  },
+  {
+    "name": "Community Manager",
+    "localisation": "FIFA Ultimate Fan, remote",
+    "contrat": "Projet personnel",
+    "debut": "Janvier 2014",
+    "end": "Janvier 2015",
+    "type": "perso",
+    "description": "FIFA Ultimate Fan est une page Facebook qui partage l'actualité sur la série de jeux vidéos FIFA et le mode de jeu FIFA Ultimate Team, et qui fait gagner des lots. J'ai rejoint l'équipe pour participer à l'animation de la page.",
+    "lines": [
+      "Modification de la charte graphique",
+      "Création de visuels pour les évènements",
+      "Création d’événements (Tombolas / tournois)"
+    ],
+    "skills": [
+      "community management",
+      "facebook",
+      "infographie",
+      "photoshop",
+      "illustrator"
+    ]
+  },
+  {
+    "name": "Modérateur / Graphiste",
+    "localisation": "FMClub.fr, remote",
+    "contrat": "Projet personnel",
+    "debut": "Janvier 2012",
+    "end": "Janvier 2014",
+    "type": "perso",
+    "description": "FMClub.fr était un forum pour discuter de la série de jeux Football Manager et partager du contenu pour le jeux (Updates / éléments graphiques). J'ai rejoint l'équipe pour participer à la modération et l'animation du forum ainsi qu'à la refonte graphique de celui-ci.",
+    "lines": [
+      "Modification du design du site",
+      "Animation des concours de créations graphiques et de la partie divertissement du forum",
+      "Création d'éléments graphiques pour le jeu (Maillots / logos)"
+    ],
+    "skills": [
+      "html",
+      "css",
+      "webdesign",
+      "infographie",
+      "photoshop"
+    ]
+  }
+]

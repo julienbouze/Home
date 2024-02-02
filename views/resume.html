@@ -1,0 +1,80 @@
+<nav id="navbar" class="navbar mb-3 px-5" ng-controller="navController">
+    <ul>
+        <li><a class="nav-link" href="" ng-click="goToPage('/home')">Accueil</a></li>
+        <li><a class="nav-link" href="" ng-click="goToPage('/about')">À propos</a></li>
+        <li><a class="nav-link" href="" ng-click="goToPage('/resume')">Mon CV</a></li>
+        <li><a class="nav-link" href="" ng-click="goToPage('/portfolio')">Portfolio</a></li>
+    </ul>
+    <i class="bi bi-list mobile-nav-toggle"></i>
+</nav><!-- .navbar -->
+<!-- ======= Resume Section ======= -->
+<section id="resume" class="resume">
+    <div class="container">
+        <div class="section-title">
+            <h2>Mon CV</h2>
+            <p>Jetez un œil à mon CV</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <h3 class="resume-title">Résumé</h3>
+                <div class="resume-item pb-0">
+                    <h4>Julien Bouze</h4>
+                    <p><em>Après une licence en développement web et plus de 4 ans dans le domaine du support technique,
+                            j'ai décidé d'évoluer et de me former à un nouveau métier.
+                            J'ai donc rejoint HCube Conseil en tant que testeur fonctionnel puis responsable des tests
+                            et de la validation pour le projet SIGLe de la Marine Nationale.</em></p>
+                    <p>
+                    <ul>
+                        <li>Aix-en-Provence, France</li>
+                        <li>julien.bouze@gmail.com</li>
+                    </ul>
+                    </p>
+                </div>
+                <h3 class="resume-title">Formation</h3>
+                <div ng-repeat="experience in experiences" ng-if="experience.type==='formation'" class="resume-item">
+                    <h4>{{ experience.name }}</h4>
+                    <h5>{{ experience.debut }} - {{ experience.end }}</h5>
+                    <h5 class="mx-1">{{ experience.contrat }}</h5>
+                    <p><em>{{ experience.localisation }}</em></p>
+                    <p>{{ experience.description }}</p>
+                    <ul ng-if="experience.lines && experience.lines.length > 0">
+                        <li ng-repeat="line in experience.lines">{{ line }}</li>
+                    </ul>
+                    <div class="badge rounded-pill p-2 mb-2 d-inline-block mx-1 skill-pill"
+                        ng-repeat="skill in experience.skills">{{ skill }}
+                    </div>
+                </div>
+                <h3 class="resume-title">Projets personnels</h3>
+                <div ng-repeat="experience in experiences" ng-if="experience.type==='perso'" class="resume-item">
+                    <h4>{{ experience.name }}</h4>
+                    <h5>{{ experience.debut }} - {{ experience.end }}</h5>
+                    <h5 class="mx-1">{{ experience.contrat }}</h5>
+                    <p><em>{{ experience.localisation }}</em></p>
+                    <p>{{ experience.description }}</p>
+                    <ul ng-if="experience.lines && experience.lines.length > 0">
+                        <li ng-repeat="line in experience.lines">{{ line }}</li>
+                    </ul>
+                    <div class="badge rounded-pill p-2 mb-2 d-inline-block mx-1 skill-pill"
+                        ng-repeat="skill in experience.skills">{{ skill }}
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h3 class="resume-title">Experience professionnelle</h3>
+                <div ng-repeat="experience in experiences" ng-if="experience.type==='experience'" class="resume-item">
+                    <h4>{{ experience.name }}</h4>
+                    <h5>{{ experience.debut }} - {{ experience.end }}</h5>
+                    <h5 class="mx-1">{{ experience.contrat }}</h5>
+                    <p><em>{{ experience.localisation }}</em></p>
+                    <p>{{ experience.description }}</p>
+                    <ul ng-if="experience.lines && experience.lines.length > 0">
+                        <li ng-repeat="line in experience.lines">{{ line }}</li>
+                    </ul>
+                    <div class="badge rounded-pill p-2 mb-2 d-inline-block mx-1 skill-pill"
+                        ng-repeat="skill in experience.skills">{{ skill }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End Resume Section -->

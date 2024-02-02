@@ -1,0 +1,106 @@
+<nav id="navbar" class="navbar mb-3 px-5" ng-controller="navController">
+    <ul>
+        <li><a class="nav-link" href="" ng-click="goToPage('/home')">Accueil</a></li>
+        <li><a class="nav-link" href="" ng-click="goToPage('/about')">À propos</a></li>
+        <li><a class="nav-link" href="" ng-click="goToPage('/resume')">Mon CV</a></li>
+        <li><a class="nav-link" href="" ng-click="goToPage('/portfolio')">Portfolio</a></li>
+    </ul>
+    <i class="bi bi-list mobile-nav-toggle"></i>
+</nav><!-- .navbar -->
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+        <div class="section-title">
+            <h2>À propos</h2>
+            <p>Qui suis-je ?</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+                <img src="img/me.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                <h3>Testeur fonctionnel</h3>
+                <p class="fst-italic">
+                    Issu d'une formation de développeur web, je me suis réorienté vers le domaine du support technique,
+                    puis du test fonctionnel. J'ai décidé de continuer à me former aux nouvelles technologies car le
+                    développement est quelque chose qui me passionne.
+                    Je souhaite à terme devenir testeur automaticien ou développeur.
+                </p>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Date de naissance:</strong> 
+                                <span>5 Juillet
+                                    1995
+                                </span>
+                                </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Website:</strong> 
+                                <a href="https://julienbouze.github.io/Home/"><span>julienbouze.github.io</span></a>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i> <strong>Localisation:</strong>
+                                <span>Marignane</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Âge:</strong> <span>28 ans</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Niveau d'études:</strong>
+                                <span>Licence</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Email:</strong>
+                                <a href="mailto:julien.bouze@gmail.com?subject=Contact&body=Message">julien.bouze@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- End About Me -->
+    <!-- ======= Skills  ======= -->
+    <div class="skills container">
+        <div class="section-title">
+            <h2>Compétences</h2>
+        </div>
+        <div class="row skills-content">
+            <div class="col-lg-3" ng-repeat="skill in skills"
+                ng-class="{ 'col-lg-3': $index % 4 === 0, 'col-lg-3': $index % 4 === 1, 'col-lg-3': $index % 4 === 2, 'col-lg-3': $index % 4 === 3 }">
+                <div class="progress">
+                    <span class="skill">{{ skill.name }} <i class="val">{{ skill.percentage }}%</i></span>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-bar {{ skill.type }}" role="progressbar" aria-id="{{ skill.id }}"
+                            aria-valuenow="{{ skill.percentage }}" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- End Skills -->
+    <!-- ======= Interests ======= -->
+    <div class="interests container">
+        <div class="section-title">
+            <h2>Centres d'intérêt</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-4 mb-4 mt-md-0" ng-repeat="interest in interests">
+                <div class="icon-box {{ interest.type }}">
+                    <i class="{{ interest.icon }}"></i>
+                    <h3>{{ interest.name }}</h3>
+                </div>
+            </div>
+        </div>
+    </div><!-- End Interests -->
+</section><!-- End About Section -->

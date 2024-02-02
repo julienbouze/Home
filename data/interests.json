@@ -1,0 +1,9 @@
+[
+  { "name": "Football","id": "football", "icon": "ri-football-line", "type": "sport" },
+  { "name": "Balades canines","id": "balades-canines", "icon": "ri-bear-smile-line", "type": "sport" },
+  { "name": "Musique","id": "musique", "icon": "ri-headphone-line", "type": "hobby" },
+  { "name": "Jeux-vidéos","id": "jeux-videos", "icon": "ri-gamepad-line", "type": "hobby" },
+  { "name": "Dessin","id": "dessin", "icon": "ri-brush-line", "type": "manuel" },
+  { "name": "Cuisine","id": "cuisine", "icon": "ri-cake-3-line", "type": "manuel" },
+  { "name": "Développement web","id": "developpement-web", "icon": "ri-keyboard-line", "type": "manuel" }
+]
